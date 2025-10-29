@@ -3,7 +3,7 @@
 
 class MyApp : public wxApp
 {
-  public:
+public:
     bool OnInit() override;
 };
 
@@ -11,7 +11,7 @@ wxIMPLEMENT_APP(MyApp);
 
 class MyFrame : public wxFrame
 {
-  public:
+public:
     MyFrame();
 
   private:
