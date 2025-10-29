@@ -2,7 +2,7 @@
 ```fish
 eval g++ hello.cpp (wx-config --cppflags --libs) -o prog
 ```
-- OR -
+- OR
 ```fish
 eval clang++ hello.cpp (wx-config --cppflags --libs) -o prog
 ```
